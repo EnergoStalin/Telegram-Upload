@@ -1,0 +1,13 @@
+about-time==3.1.1
+alive-progress==2.4.1
+autopep8==1.6.0
+cryptg==0.3.1
+grapheme==0.6.0
+humanize==4.2.0
+Pillow==9.1.1
+pyaes==1.6.1
+pyasn1==0.4.8
+pycodestyle==2.8.0
+rsa==4.8
+Telethon==1.24.0
+toml==0.10.2
