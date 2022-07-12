@@ -15,11 +15,11 @@ async def main():
 		await client.connect()
 		await client.start(CONFIG['phone'])
 
-		await sendFileTreeAsync('.', client, ext=('.png'))
+		await sendFileTreeAsync('.', client, ext=('.jpg', '.png'))
 		
 
 if __name__ == '__main__':
-	loop = asyncio.get_event_loop()
+	loop = asyncio.new_event_loop()
 	try:
 		loop.run_until_complete(main())
 	finally:
